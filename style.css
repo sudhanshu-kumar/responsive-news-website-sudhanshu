@@ -40,11 +40,11 @@ body{
     margin-right: 120px; 
 }
 
-.dog-img{
+.dog-img-box{
     position: relative;
 
 }
-.dog-img img{
+.dog-img-box img{
     height: 600px;
     width: 100%;
 }
@@ -65,3 +65,70 @@ body{
     font-size: 150%;
 }
 
+.top-news{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /*background-color: green;*/
+    box-shadow: 0 1px rgba(221, 221, 221, 0.884);
+    position: relative;
+}
+
+.top-news span {
+    position: relative;
+    bottom: 10px;
+    font-size: 28px;
+    color: gray;
+    margin-right: 1060px;
+    padding-bottom: 40px;
+}
+
+.top-news a {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 20px;
+    color:gray;
+}
+
+.news-content {
+    box-shadow: 0 1px rgba(221, 221, 221, 0.884);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: gray;
+}
+
+.news-table {
+    /*border: 2px solid gray;*/
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.news-table th{
+    /*border: 2px solid gray;*/
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.news-table td{
+    /*border: 2px solid gray;*/
+    text-align: center;
+    color: rgb(58, 56, 56);
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.place{
+    font-size: 32px;
+}
+.weather-text{
+    font-size: 24px;
+}
