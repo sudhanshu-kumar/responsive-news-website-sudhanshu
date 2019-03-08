@@ -1,0 +1,42 @@
+body{
+    margin: 10px;
+}
+
+.header-box{
+    height: 150px;
+    box-shadow: 0 4px 10px rgba(177, 175, 175, 0.884);
+    margin: 10px;
+    position: relative;
+}
+
+.header-box > h1{
+    display: inline;
+    box-align: center;
+    font-size: 72px;
+    position: absolute;
+    left: 400px;
+    bottom: 1px;
+}
+
+.header > img{
+    height: 80px;
+    width: 80px;
+}
+
+.nav-list{
+    /*background:  green;*/
+    height: 40px;
+    display: -ms-flexbox;
+    padding: 10px 2px 10px 2px;
+}
+
+.nav-list > a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+    margin-top: 12px;
+    margin-left: 120px;
+	margin-right: 120px;
+    
+}
