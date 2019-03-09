@@ -164,11 +164,13 @@ body{
 
 .latest-news-content{
     margin-bottom: 40px;
+    height: 200px;
     display: block;
 }
 
 .latest-news-content img{
     width: 250px;
+    margin-right: 20px;
     height: 180px;
     float: left;
     
