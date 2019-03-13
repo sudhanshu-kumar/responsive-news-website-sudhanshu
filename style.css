@@ -435,11 +435,13 @@ body{
         position: relative;
     }
     .weather-img img{
-        width: 100px;
+        width: 150px;
+        height: 104px;
     }
     .weather-img span{
         position:absolute;
-        top: 30px;
+        left: 150px;
+        top: -14px;
         font-size: 24px;
     }
     
